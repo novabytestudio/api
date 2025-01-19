@@ -8,14 +8,14 @@ async function init() {
 	dotenv.config();
 	const app = await NestFactory.create(AppModule);
 	app.enableCors();
-	app.setGlobalPrefix("/v1");
+	app.setGlobalPrefix("/v0");
 	const config = new DocumentBuilder()
 		.setTitle("Novabyte Studio API")
 		.setVersion(process.env.API_VERSION)
 		.addTag("Home")
 		.build();
 	const document = SwaggerModule.createDocument(app, config);
-	SwaggerModule.setup("/v1/docs", app, document, {
+	SwaggerModule.setup("/v0/docs", app, document, {
 		customJs: [
 			"https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.18.2/swagger-ui.js",
 			"https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.18.2/swagger-ui-bundle.js",

@@ -1,10 +1,10 @@
 {
   "publisher": "Novabyte Studio",
-	"author": {
-		"name": "Federico Tomassini",
-		"email": "fedetomassini.dev@gmail.com",
-		"url": "https://www.linkedin.com/in/fedetomassini/"
-	},
+  "author": {
+    "name": "Federico Tomassini",
+    "email": "fedetomassini.dev@gmail.com",
+    "url": "https://www.linkedin.com/in/fedetomassini/"
+  },
   "scripts": {
     "build": "nest build",
     "start": "nest start",
@@ -24,9 +24,12 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.0",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/swagger": "^11.0.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "dotenv": "^16.4.7",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
