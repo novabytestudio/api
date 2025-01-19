@@ -9,11 +9,7 @@ async function init() {
 	const app = await NestFactory.create(AppModule);
 	app.enableCors();
 	app.setGlobalPrefix("/v0");
-	const config = new DocumentBuilder()
-		.setTitle("Novabyte Studio API")
-		.setVersion(process.env.API_VERSION)
-		.addTag("Home")
-		.build();
+	const config = new DocumentBuilder().setTitle("Novabyte Studio API").addTag("Home").build();
 	const document = SwaggerModule.createDocument(app, config);
 	SwaggerModule.setup("/v0/docs", app, document, {
 		customJs: [

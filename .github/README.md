@@ -1,9 +1,16 @@
-# Novabyte Studio API
+<div align="center">
+    <img src="https://i.postimg.cc/x1s37vcP/nvs.png" width="130" alt="Novabyte Studio API"> 
+</div>
 
-Welcome to the Novabyte Studio API! This project is designed to provide a robust and scalable backend using the [NestJS](https://nestjs.com/) framework.
+<div align="center">
+    
+# 🌟 Novabyte Studio API 🌟  
+
+</div>
+
 
 ## Table of Contents
-- [Novabyte Studio API](#novabyte-studio-api)
+- [🌟 Novabyte Studio API 🌟](#-novabyte-studio-api-)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Requirements](#requirements)
@@ -13,7 +20,8 @@ Welcome to the Novabyte Studio API! This project is designed to provide a robust
 - Framework: **NestJS**
 - Automatic documentation with **Swagger**
 - Dependency management with **npm**
-- Unit and integration testing with **Jest**
+- Database management with **Prisma**
+- Authentication and storage with **Supabase**
 - Linter and formatter with **Biome**
 
 ## Requirements
@@ -25,5 +33,5 @@ Make sure you have the following installed:
 ## Author
 
 **Federico Tomassini**  
-[LinkedIn](https://www.linkedin.com/in/fedetomassini/)  
-[Email](mailto:fedetomassini.dev@gmail.com)
+~ https://www.linkedin.com/in/fedetomassini/<br/>
+~ fedetomassini.dev@gmail.com
