@@ -2,9 +2,6 @@ version: 2
 updates:
   - package-ecosystem: "npm" # Bun is not available.
     directory: "/"
+    target-branch: "main"
     schedule:
       interval: "weekly"
-      day: "friday"
-    commit-message:
-      prefix: "deps"
-    auto-merge: true
